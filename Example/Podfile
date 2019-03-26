@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FoodTrackerModel2_Example' do
+  pod 'FoodTrackerModel2', :path => '../'
+
+  target 'FoodTrackerModel2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
