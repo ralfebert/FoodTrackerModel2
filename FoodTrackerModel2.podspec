@@ -23,12 +23,13 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/Ralf Ebert/FoodTrackerModel2'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  # s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ralf Ebert' => 'info@ralfebert.de' }
   s.source           = { :git => 'https://github.com/Ralf Ebert/FoodTrackerModel2.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'FoodTrackerModel2/Classes/**/*'
   
